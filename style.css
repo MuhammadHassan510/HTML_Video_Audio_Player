@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #DDF2FD;
+}
+
+header{
+    background-color: #164863;
+    height: auto;
+}
+
+#logo{
+    padding-top: 30px;
+    padding-left: 20px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: #DDF2FD;
+    padding: 10px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+nav a:hover{
+    background-color: #DDF2FD;
+    color: #164863;
+}
+
+nav a:active{
+    background-color: #DDF2FD;
+    color: #164863;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+nav ul li{
+    display: inline-flex;
+}
+
+#home{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #F1EFEF;
+    margin: 3% 5.6%;
+    padding: 20px 50px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+#audiosection{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #F1EFEF;
+    margin: 3% 5.6%;
+    padding: 20px 50px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+#localvideos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #F1EFEF;
+    margin: 3% 5.6%;
+    padding: 20px 50px;
+    border-radius: 15px 15px 0px 0px;    
+}
+
+#lazyminds, #codewithharry, #yousufashari, #browseaudio, #lvideos{
+    text-align: center;
+    color: #164863;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #164863;
+}
+
+.bradius{
+    border-radius: 20px;
+}
+
+#manualvideos video{
+    height: 200px;
+    width: 360px;
+    border-radius: 20px;
+}
